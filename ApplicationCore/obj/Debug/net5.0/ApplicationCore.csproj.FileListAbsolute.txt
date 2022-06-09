@@ -1,0 +1,12 @@
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\bin\Debug\net5.0\ApplicationCore.deps.json
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\bin\Debug\net5.0\ApplicationCore.dll
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\bin\Debug\net5.0\ApplicationCore.pdb
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\obj\Debug\net5.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\obj\Debug\net5.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\obj\Debug\net5.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\obj\Debug\net5.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\obj\Debug\net5.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\obj\Debug\net5.0\ApplicationCore.dll
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\obj\Debug\net5.0\refint\ApplicationCore.dll
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\obj\Debug\net5.0\ApplicationCore.pdb
+C:\Users\zagpas01\source\repos_Personal\WebAPI\WebAPI\ApplicationCore\obj\Debug\net5.0\ref\ApplicationCore.dll
