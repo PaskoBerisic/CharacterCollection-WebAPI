@@ -44,9 +44,14 @@ namespace ApplicationCore.Services
             await heroRepository.UpdateAsync(character);
         }
 
-        public async Task DeleteHero(int id)
+        public async Task DeleteHero(Hero hero)
         {
-            await heroRepository.DeleteAsync(id);
+            await heroRepository.DeleteAsync(hero);
+        }
+
+        public async Task DeleteHeroyId(int id)
+        {
+            await heroRepository.DeleteByIdAsync(id);
         }
     }
 }
