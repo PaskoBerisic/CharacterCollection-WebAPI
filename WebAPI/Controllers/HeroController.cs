@@ -30,9 +30,13 @@ namespace WebAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<IEnumerable<HeroModel>>> GetById(int id)
         {
-            var character = await characterCollectionService.GetHeroById(id);
-           // var heroModel = mapper.Map<List<HeroModel>>(character);
-            return Ok(character);
+            var hero = await characterCollectionService.GetHeroById(id);
+            if (hero is null)
+            {
+                return NotFound($"Hero with id {id} not found.");
+            }
+            // var heroModel = mapper.Map<List<HeroModel>>(character);
+            return Ok(hero);
         }
 
         [HttpPost]
@@ -51,11 +55,11 @@ namespace WebAPI.Controllers
             return CreatedAtAction(nameof(GetById), new { hero.Id }, hero);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<ActionResult<HeroModel>> Delete(int id)
         {
-            var hero = await characterCollectionService.DeleteHero(id);
-            return Ok($"Hero with id {hero.Id} deleted");
+            await characterCollectionService.DeleteHeroyId(id);
+            return Ok($"Hero with id {id} deleted");
         }
     }
 }

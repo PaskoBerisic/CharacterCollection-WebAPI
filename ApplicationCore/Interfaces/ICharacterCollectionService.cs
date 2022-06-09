@@ -13,6 +13,7 @@ namespace ApplicationCore.Interfaces
         Task<Hero> GetHeroByName(string name);
         Task<Hero> AddHero(Hero hero);
         Task UpdateHero(Hero hero);
-        Task DeleteHero(int id);
+        Task DeleteHero(Hero hero);
+        Task DeleteHeroyId(int id);
     }
 }

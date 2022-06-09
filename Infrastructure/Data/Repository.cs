@@ -49,11 +49,16 @@ namespace Infrastructure.Data
             await SaveChangesAsync();
         }
 
-        public async Task DeleteAsync<Tid>(Tid id)
+        public async Task DeleteByIdAsync<Tid>(Tid id)
         {
-            var toDelete = GetByIdAsync(id);
+            var toDelete = await context.Set<T>().FindAsync(new object[] { id });
             await DeleteAsync(toDelete);
         }
 
+        public async Task DeleteAsync(T entity)
+        {
+            context.Remove(entity);
+            await SaveChangesAsync();
+        }
     }
 }
