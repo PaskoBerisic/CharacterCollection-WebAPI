@@ -17,5 +17,7 @@ namespace ApplicationCore.Entities
 
         [XmlElement]
         public int Power { get; set; }
+    
+        //public Trait Traits { get; set; }
     }
 }

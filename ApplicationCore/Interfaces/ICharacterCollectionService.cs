@@ -14,6 +14,15 @@ namespace ApplicationCore.Interfaces
         Task<Hero> AddHero(Hero hero);
         Task UpdateHero(Hero hero);
         Task DeleteHero(Hero hero);
-        Task DeleteHeroyId(int id);
+        Task DeleteHeroById(int id);
+        //Custom
+
+        Task<IEnumerable<Villain>> GetAllVillains();
+        Task<Villain> GetVillainById(int id);
+        Task<Villain> GetVillainByName(string name);
+        Task<Villain> AddVillain(Villain villain);
+        Task UpdateVillain(Villain villain);
+        Task DeleteVillain(Villain villain);
+        Task DeleteVillainById(int id);
     }
 }
