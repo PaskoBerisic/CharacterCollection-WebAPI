@@ -23,8 +23,8 @@ namespace WebAPI.Controllers
         [HttpGet("all")]
         public async Task<ActionResult<IEnumerable<HeroModel>>> Get()
         {
-            var characters = await characterCollectionService.GetAllHeroes();
-            return Ok((characters));
+            var heroes = await characterCollectionService.GetAllHeroes();
+            return Ok((heroes));
         }
 
         [HttpGet("{id}")]
@@ -35,17 +35,17 @@ namespace WebAPI.Controllers
             {
                 return NotFound($"Hero with id {id} not found.");
             }
-            // var heroModel = mapper.Map<List<HeroModel>>(character);
-            return Ok(hero);
+            var heroModel = mapper.Map<HeroModel>(hero);
+            return Ok(heroModel);
         }
 
         [HttpPost]
         public async Task<ActionResult<HeroModel>> Add([FromBody] HeroModel heroModel)
         {
-            var character = mapper.Map<Hero>(heroModel);
-            var characterAdded = await characterCollectionService.AddHero(character);
+            var hero = mapper.Map<Hero>(heroModel);
+            var heroAdded = await characterCollectionService.AddHero(hero);
 
-            return CreatedAtAction(nameof(GetById), new { characterAdded.Id }, characterAdded);
+            return CreatedAtAction(nameof(GetById), new { heroAdded.Id }, heroAdded);
         }
 
         [HttpPut]
@@ -58,7 +58,7 @@ namespace WebAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<HeroModel>> Delete(int id)
         {
-            await characterCollectionService.DeleteHeroyId(id);
+            await characterCollectionService.DeleteHeroById(id);
             return Ok($"Hero with id {id} deleted");
         }
     }

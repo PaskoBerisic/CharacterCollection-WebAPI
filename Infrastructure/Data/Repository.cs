@@ -1,4 +1,5 @@
 ﻿using ApplicationCore;
+using ApplicationCore.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -60,5 +61,8 @@ namespace Infrastructure.Data
             context.Remove(entity);
             await SaveChangesAsync();
         }
+
+        //Custom
+        
     }
 }

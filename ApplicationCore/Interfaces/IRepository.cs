@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApplicationCore.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,5 +18,8 @@ namespace ApplicationCore
         Task DeleteAsync(T entity);
         Task DeleteByIdAsync<Tid>(Tid id);
         
+        //Custom
+
+
     }
 }
