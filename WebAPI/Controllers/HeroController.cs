@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using AutoMapper;
 using System;
+using Microsoft.AspNetCore.Cors;
 
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("AllowMyOrigin")]
     public class HeroController : Controller
     {
         private readonly ICharacterCollectionService characterCollectionService;
@@ -24,7 +26,7 @@ namespace WebAPI.Controllers
         public async Task<ActionResult<IEnumerable<HeroModel>>> Get()
         {
             var heroes = await characterCollectionService.GetAllHeroes();
-            return Ok((heroes));
+            return Ok(mapper.Map<List<HeroModel>>(heroes));
         }
 
         [HttpGet("{id}")]
