@@ -7,14 +7,12 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-<!-- PROJECT LOGO -->
 <br />
 
 <h3 align="center">Character Collection WEB API</h3>
 
 
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -31,6 +29,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -39,7 +38,6 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 WEB API for all Marvel characters. Explore Marvel superheroes and villans in this custom designed database.
 
@@ -57,7 +55,6 @@ WEB API for all Marvel characters. Explore Marvel superheroes and villans in thi
 
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -87,15 +84,34 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
 Use the predefined database with some of the Marvel characters or even extend the database with new characters. 
+You Can preform CRUD operations with Swagger or Angular application using this Web API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- CONTRIBUTING -->
+
+## Screenshots
+
+### Swagger Landing Page
+``` http://localhost:44352/api/ ```
+
+### GET
+
+
+### POST
+
+
+### PUT
+
+
+### DELETE
+
+
+
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -113,7 +129,6 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -122,15 +137,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-<!-- CONTACT -->
 ## Contact
 
 Project Link: [https://github.com/PaskoBerisic/CharacterCollection-WebAPI](https://github.com/PaskoBerisic/CharacterCollection-WebAPI)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
 [contributors-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
