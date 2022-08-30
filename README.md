@@ -1,1 +1,153 @@
 # CharacterCollection-WebAPI
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+<!-- PROJECT LOGO -->
+<br />
+
+<h3 align="center">Character Collection WEB API</h3>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+WEB API for all Marvel characters. Explore Marvel superheroes and villans in this custom designed database.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+* [![C#][CSharp.com]][CSharp-url]
+* [![NETFramework][dotnet.com]][dotnet-url]
+* [![MicrosoftSQLServer][sql.com]][sql-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/PaskoBerisic/CharacterCollection-WebAPI.git
+   ```
+2. Create database using Package Manager Console
+   ```sh
+   Update-Database
+   ```
+   Migrations for database are visible inside "Migrations" folder in "Infrastructure" project.
+
+3. (Optional) <br>
+   You can use separate Angular application for better expirience if you have issues working with Swagger.
+   
+   Clone the Angular App repo
+   ```sh
+   git clone https://github.com/PaskoBerisic/CharacterCollectionApp.git
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use the predefined database with some of the Marvel characters or even extend the database with new characters. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Project Link: [https://github.com/PaskoBerisic/CharacterCollection-WebAPI](https://github.com/PaskoBerisic/CharacterCollection-WebAPI)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
+[contributors-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
+[forks-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/network/members
+[stars-shield]: https://img.shields.io/github/stars/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
+[stars-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
+[issues-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/issues
+<!-- [license-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/main/LICENSE.txt -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://hr.linkedin.com/in/pasko-berisic
+[product-screenshot]: images/screenshot.png
+[Csharp.com]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white
+[Csharp-url]: https://dotnet.microsoft.com/en-us/learn/csharp
+[dotnet.com]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
+[dotnet-url]: https://dotnet.microsoft.com/
+[sql.com]: https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white
+[sql-url]: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
