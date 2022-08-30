@@ -1,11 +1,10 @@
 ﻿using ApplicationCore.Entities;
 using ApplicationCore.Interfaces;
+using AutoMapper;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using AutoMapper;
-using System;
 
 namespace WebAPI.Controllers
 {
@@ -20,11 +19,11 @@ namespace WebAPI.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet("all")]
-        public async Task<ActionResult<IEnumerable<HeroModel>>> Get()
+        [HttpGet()] // Changed to Entity from Model
+        public async Task<ActionResult<IEnumerable<Hero>>> Get()
         {
-            var characters = await characterCollectionService.GetAllHeroes();
-            return Ok((characters));
+            var heroes = await characterCollectionService.GetAllHeroes();
+            return Ok(mapper.Map<List<Hero>>(heroes));
         }
 
         [HttpGet("{id}")]
