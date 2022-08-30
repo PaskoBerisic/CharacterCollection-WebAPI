@@ -97,26 +97,31 @@ You Can preform CRUD operations with Swagger or Angular application using this W
 
 ### Swagger Landing Page
 ``` http://localhost:44352/api/ ```
+<br>
 ![first](https://user-images.githubusercontent.com/37916092/187413749-f4355d2e-c2a8-4633-98c3-c999e8b2cfe0.png)
 
 
 ### GET
 ``` http://localhost:44352/api/Hero ```
+<br>
 ![get](https://user-images.githubusercontent.com/37916092/187413771-5412096d-f581-42a3-8baa-23fff60e46ec.png)
 
 
 ### POST
 ``` http://localhost:44352/api/Hero ```
+<br>
 ![post](https://user-images.githubusercontent.com/37916092/187413794-19ac7363-d3de-47ca-9163-7403738a3105.png)
 
 
 ### PUT
 ``` http://localhost:44352/api/ ```
+<br>
 ![put](https://user-images.githubusercontent.com/37916092/187413811-8b2d427e-7d19-48d7-a5ef-2f39a1d9c90f.png)
 
 
 ### DELETE
 ``` http://localhost:44352/api/Hero/{id} ```
+<br>
 ![delete](https://user-images.githubusercontent.com/37916092/187413821-8219332b-0dc5-421e-b03b-07b7ad4619cc.png)
 
 
