@@ -19,7 +19,7 @@ namespace WebAPI.Controllers
             this.mapper = mapper;
         }
 
-        [HttpGet("all")]
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<VillainModel>>> Get()
         {
             var villains = await characterCollectionService.GetAllVillains();
