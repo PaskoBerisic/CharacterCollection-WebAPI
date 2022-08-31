@@ -33,6 +33,7 @@ namespace WebAPI
                 .AllowAnyMethod()
                 .Build());
             });
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

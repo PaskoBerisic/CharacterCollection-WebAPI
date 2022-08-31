@@ -61,7 +61,7 @@ namespace WebAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<VillainModel>> Delete(int id)
         {
-            await characterCollectionService.DeleteVillainById(id);
+            await characterCollectionService.DeleteVillain(id);
             return Ok($"Villain with id {id} deleted");
         }
     }
