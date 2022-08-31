@@ -1,4 +1,12 @@
-﻿namespace WebAPI.Controllers
+﻿using ApplicationCore.Entities;
+using ApplicationCore.Interfaces;
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using WebAPI.Models;
+
+namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     public class VillainController : Controller
@@ -51,7 +59,7 @@
         [HttpDelete("{id}")]
         public async Task<ActionResult<VillainModel>> Delete(int id)
         {
-            await characterCollectionService.DeleteVillainById(id);
+            await characterCollectionService.DeleteVillain(id);
             return Ok($"Villain with id {id} deleted");
         }
     }

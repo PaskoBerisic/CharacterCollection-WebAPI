@@ -11,9 +11,9 @@ namespace ApplicationCore.Services
     public class CharacterCollectionService : ICharacterCollectionService
     {
         private readonly IRepository<Hero> heroRepository;
-        private readonly IRepository<Hero> villainRepository;
+        private readonly IRepository<Villain> villainRepository;
 
-        public CharacterCollectionService(IRepository<Hero> heroRepository, IRepository<Hero> villainRepository)
+        public CharacterCollectionService(IRepository<Hero> heroRepository, IRepository<Villain> villainRepository)
         {
             this.heroRepository = heroRepository;
             this.villainRepository = villainRepository;
@@ -34,19 +34,49 @@ namespace ApplicationCore.Services
             return await heroRepository.GetByNameAsync(name);
         }
 
-        public async Task<Hero> AddHero(Hero character)
+        public async Task<Hero> AddHero(Hero hero)
         {
-            return await heroRepository.AddAsync(character);
+            return await heroRepository.AddAsync(hero);
         }
 
-        public async Task UpdateHero(Hero character)
+        public async Task UpdateHero(Hero hero)
         {
-            await heroRepository.UpdateAsync(character);
+            await heroRepository.UpdateAsync(hero);
         }
 
         public async Task DeleteHero(int id)
         {
             await heroRepository.DeleteAsync(id);
+        }
+
+        public async Task<IEnumerable<Villain>> GetAllVillains()
+        {
+            return await villainRepository.GetAllAsync();
+        }
+
+        public async Task<Villain> GetVillainById(int id)
+        {
+            return await villainRepository.GetByIdAsync(id);
+        }
+
+        public async Task<Villain> GetVillainByName(string name)
+        {
+            return await villainRepository.GetByNameAsync(name);
+        }
+
+        public async Task<Villain> AddVillain(Villain villain)
+        {
+            return await villainRepository.AddAsync(villain);
+        }
+
+        public async Task UpdateVillain(Villain villain)
+        {
+            await villainRepository.UpdateAsync(villain);
+        }
+
+        public async Task DeleteVillain(int id)
+        {
+            await villainRepository.DeleteAsync(id);
         }
     }
 }

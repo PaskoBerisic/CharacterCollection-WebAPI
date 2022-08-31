@@ -53,8 +53,8 @@ namespace WebAPI.Controllers
         [HttpDelete]
         public async Task<ActionResult<HeroModel>> Delete(int id)
         {
-            var hero = await characterCollectionService.DeleteHero(id);
-            return Ok($"Hero with id {hero.Id} deleted");
+            await characterCollectionService.DeleteHero(id);
+            return Ok($"Hero with id {id} deleted");
         }
     }
 }
