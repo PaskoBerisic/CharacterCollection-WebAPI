@@ -174,5 +174,5 @@ Project Link: [https://github.com/PaskoBerisic/CharacterCollection-WebAPI](https
 [Csharp-url]: https://dotnet.microsoft.com/en-us/learn/csharp
 [dotnet.com]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
 [dotnet-url]: https://dotnet.microsoft.com/
-[sql.com]: https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white
+[sql.com]: https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white
 [sql-url]: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
