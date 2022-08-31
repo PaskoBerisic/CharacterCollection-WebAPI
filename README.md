@@ -4,6 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -166,13 +167,13 @@ Project Link: [https://github.com/PaskoBerisic/CharacterCollection-WebAPI](https
 [stars-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/stargazers
 [issues-shield]: https://img.shields.io/github/issues/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
 [issues-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/issues
-<!-- [license-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/main/LICENSE.txt -->
+[license-shield]: https://img.shields.io/github/license/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
+[license-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://hr.linkedin.com/in/pasko-berisic
-[product-screenshot]: images/screenshot.png
 [Csharp.com]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white
 [Csharp-url]: https://dotnet.microsoft.com/en-us/learn/csharp
 [dotnet.com]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
 [dotnet-url]: https://dotnet.microsoft.com/
-[sql.com]: https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white
+[sql.com]: https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white
 [sql-url]: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
