@@ -166,10 +166,10 @@ Project Link: [https://github.com/PaskoBerisic/CharacterCollection-WebAPI](https
 [stars-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/stargazers
 [issues-shield]: https://img.shields.io/github/issues/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
 [issues-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/issues
-<!-- [license-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/main/LICENSE.txt -->
+[license-shield]: https://img.shields.io/github/license/PaskoBerisic/CharacterCollection-WebAPI.svg?style=for-the-badge
+[license-url]: https://github.com/PaskoBerisic/CharacterCollection-WebAPI/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://hr.linkedin.com/in/pasko-berisic
-[product-screenshot]: images/screenshot.png
 [Csharp.com]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white
 [Csharp-url]: https://dotnet.microsoft.com/en-us/learn/csharp
 [dotnet.com]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
